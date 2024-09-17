@@ -1,0 +1,9 @@
+{
+    "name": "FederatedIdGithubAction",
+    "issuer": "https://token.actions.githubusercontent.com/",
+    "subject": "repo:Z4ck404/staticwebsite-on-k8s-and-azure:ref:refs/heads/master",
+    "description": "Login to Azure from a Gh action",
+    "audiences": [
+        "api://AzureADTokenExchange"
+    ]
+}
